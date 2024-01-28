@@ -1,0 +1,50 @@
+/* Reset CSS */
+
+
+/* Box sizing border-box para todos os elementos */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Reset de margem e padding para elementos de formulário */
+  input,
+  button,
+  select,
+  textarea {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Reset de estilos para listas não ordenadas e ordenadas */
+  ul,
+  ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Reset de estilos para links */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Reset de estilos para cabeçalhos */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: inherit;
+    font-weight: inherit;
+  }
+  
+  /* Reset de estilos para elementos de mídia incorporados */
+  img,
+  video {
+    max-width: 100%;
+    height: auto;
+  }
